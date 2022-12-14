@@ -1,0 +1,140 @@
+/*CSS Reset*/
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Roboto Mono', monospace;
+}
+
+@media (min-width: 700px){
+	#dan_small{
+		display:none;
+	}
+
+}
+
+@media(max-width:700px){
+	#dan_big{
+		display:none;
+	}
+}
+
+#intro{
+	font-family: 'Rubik Spray Paint', cursive !important;
+	color: #C5F8FF;
+	letter-spacing: 3px;
+}
+
+body{
+	color: #354A53 !important;
+}
+
+
+html{
+	scroll-behavior: smooth;
+}
+
+.navbar{
+	background-color: #539BB8;
+}
+
+#about_me{
+	background-color: #539BB8;
+}
+
+.projectmade{
+	background-color: #539BB8;
+	color: #354A53;
+}
+
+#tools{
+	background-color: #539BB8;
+	color: #354A53;
+}
+.contactme{
+	background-color: #539BB8 ;
+	color: #354A53;
+}
+
+.contactform{
+	background-color: #354A53;
+}
+
+#contactfootnote {
+	background-color: #539BB8;
+	color: #354A53;
+}
+
+#list{
+	list-style: none;
+}
+
+
+#profile_section{
+	background-image: url(https://ik.imagekit.io/houseofcoders/wp-content/uploads/2017/10/portfolio-background.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed center;
+}
+
+
+.bi-linkedin{
+	color: #0E6883;
+}
+
+.bi-git{
+	color: #0E6883;
+}
+
+.bi-facebook{
+	color: #0E6883;
+}
+
+.bi-github{
+	color: #0E6883;
+}
+
+.card-body{
+	color: #354A53;
+}
+
+.footnotes{
+	color: #354A53;
+}
+
+.mapouter{
+	position: relative;
+	text-align: right;
+	width: 100%;
+	height: 430px;
+}
+
+.gmap_canvas{
+	overflow: hidden;
+	background: none !important;
+	width: 100%;
+	height: 430px;
+}
+
+.gmap_iframe{
+	height: 430px !important;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 25px;
+  border: none;
+  outline: none;
+  background-color: #0E6883;
+  color: white;
+  cursor: pointer;
+  padding: 5px;
+  border-radius:;
+}
+
+#myBtn:hover {
+  background-color: #354A53;
+}
