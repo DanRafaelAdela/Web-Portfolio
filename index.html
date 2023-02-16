@@ -273,7 +273,7 @@
 		<footer class="mt-5 p-2">
 			<div class="mt-2 text-white">
 				<p class="text-center">Dan Rafael Adela</p>
-				<p class="text-center">© All Rights Reserved 2022</p>
+				<p class="text-center" id = "date"></p>
 			</div>
 		</footer>
 
@@ -301,6 +301,10 @@
 	  document.body.scrollTop = 0;
 	  document.documentElement.scrollTop = 0;
 	}
+
+	const date = new Date();
+	const year = date.getFullYear();
+	document.getElementById("date").innerHTML = "© All Rights Reserved " + year;
 	</script>
 
 	<!-- btt button stop -->
